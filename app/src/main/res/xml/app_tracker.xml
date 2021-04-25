@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- End current session if app sleeps for a period of time -->
+    <integer name="ga_sessionTimeout">300</integer>
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!--  The property id associated with this analytics tracker -->
+    <string name="ga_trackingId">UA-88043694-1</string>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+</resources>
+<!--
+package com.movie.app.Fragment
+
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.os.Bundle
+import android.view.*
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
+import androidx.viewpager.widget.ViewPager
+import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
+import com.google.android.material.tabs.TabLayoutMediator
+import com.google.android.material.tabs.TabLayoutMediator.TabConfigurationStrategy
+import com.movie.app.Adapter.SectionsPagerAdapter
+import com.movie.app.Fragment.TabsFragment.FindFragment
+import com.movie.app.Fragment.TabsFragment.MoreDetailsFragment
+import com.movie.app.Fragment.TabsFragment.RelatedFragment
+import com.movie.app.Helper.Tools
+import com.movie.app.R
+import kotlinx.android.synthetic.main.fragment_my_stuff.*
+
+
+class MyStuffFragment : Fragment() {
+    var tab_layout: TabLayout? = null
+    var view_pager: ViewPager2? = null
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view: View = inflater.inflate(R.layout.fragment_my_stuff, container, false)
+
+
+        tab_layout = view.findViewById<TabLayout>(R.id.tab_layout)
+        view_pager = view.findViewById<ViewPager2>(R.id.view_pager)
+        onSetupTabs();
+
+        setHasOptionsMenu(true);
+
+
+        return view
+
+    }
+
+    @SuppressLint("ResourceAsColor")
+    private fun onSetupTabs() {
+        setupViewPager(view_pager)
+        tab_layout.let {
+            view_pager?.let { it1 ->
+                if (it != null) {
+                    TabLayoutMediator(it, it1,
+                        TabConfigurationStrategy { tab: TabLayout.Tab, position: Int ->
+                            if (position == 0) {
+                                tab.text = "Movies"
+                            } else if (position == 1) {
+                                tab.text = "Series"
+                            } else {
+                                tab.text = "Animes"
+                            }
+                        }
+                    ).attach()
+                }
+            }
+        }
+        tab_layout?.addOnTabSelectedListener(object : OnTabSelectedListener {
+            override fun onTabSelected(tab: TabLayout.Tab) {
+
+
+                // on Tab Selected
+            }
+
+            override fun onTabUnselected(tab: TabLayout.Tab) {
+
+                // on Tab UnSelected
+            }
+
+            override fun onTabReselected(tab: TabLayout.Tab) {
+
+
+                // on Tab ReSelected
+            }
+        })
+    }
+
+
+    private fun setupViewPager(viewPager: ViewPager2?) {
+        val viewPagerAdapter =
+            SectionsPagerAdapter(childFragmentManager, lifecycle)
+        viewPagerAdapter.addFragment(FindFragment())
+        viewPagerAdapter.addFragment(MoreDetailsFragment())
+        viewPagerAdapter.addFragment(RelatedFragment())
+        viewPager?.adapter = viewPagerAdapter
+        viewPager?.offscreenPageLimit = 2
+        viewPagerAdapter.notifyDataSetChanged()
+    }
+
+
+    /*  fun onPrepareOptionsMenu(menu: Menu) {
+          menu.clear()
+      }*/
+
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        view_pager?.setSaveFromParentEnabled(true)
+        view_pager?.setAdapter(null)
+    }
+
+
+}
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Fragment.MyStuffFragment">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottomnavigationbgcolor"
+        android:fitsSystemWindows="true">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bottomnavigationbgcolor"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/logo_image_top"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/prime" />
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/main_color"
+                app:tabIndicatorHeight="3dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/golden_gate"
+                app:tabTextAppearance="@style/TextAppearance.Design.Tab"
+                app:tabTextColor="@color/grey_20" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</FrameLayout>
+
+
+-->

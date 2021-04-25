@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/baseline_photo_camera_black_24"
+            android:title="Movie Shorts" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_gallery_white_24"
+            android:title="Gallery Images"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_Videos"
+            android:icon="@drawable/baseline_video_grey_24"
+            android:title="Gallery Video" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_photo_library_black_24"
+            android:title="Subscribe" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/baseline_setting_black_24"
+            android:title="Make Notes" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/baseline_setting_black_24"
+            android:title="Delete Cache" />
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/baseline_setting_black_24"
+                    android:title="Setting" />
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/baseline_send_black_24"
+                    android:title="Privacy Policy" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/nav_about"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

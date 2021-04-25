@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">Movie APP</string>
+
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="turn_on">Turn on</string>
+    <string name="storage_permission_is_required">Storage permission is required</string>
+    <string name="cant_s_access_files">Cant\'s access files</string>
+    <string name="new_folder">new folder</string>
+    <string name="lbl_search">search</string>
+    <string name="show_hidden_file">Show hidden file</string>
+    <string name="tab_ui_collection">Components</string>
+    <string name="tab_features">FEATURES</string>
+    <string name="tab_application">APPS</string>
+    <string name="tab_feature_request">Feature Request</string>
+    <string name="tab_about_us">About Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="message__want_to_quit">Do you really want to quit?</string>
+
+    <string name="dummy_paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis, velit eget dapibus malesuada, massa eros condimentum mi, in pulvinar dui sapien at mi. Aenean porttitor vitae elit vitae sagittis. Nullam porta mauris eget libero ornare maximus. Curabitur vehicula quam vel pulvinar efficitur. Donec ultricies sapien vitae auctor congue. Suspendisse posuere malesuada augue nec sodales. Etiam ut erat massa. Integer gravida justo eu elit ornare ultrices. Curabitur augue dui, dapibus vel luctus eu, pellentesque quis erat. Suspendisse elementum justo vitae ante dapibus, et dignissim metus iaculis. Nam nec condimentum dolor, sodales scelerisque lacus. Suspendisse placerat facilisis felis id rutrum. Praesent posuere nulla id tellus tristique rutrum.\n\nDonec vitae sem malesuada, mollis velit et, faucibus erat. Suspendisse et rhoncus velit, non vestibulum erat. Maecenas a posuere diam. Curabitur cursus pharetra lacus, et euismod nisi pellentesque eu. Maecenas finibus dui scelerisque ipsum lacinia viverra. Donec eros risus, placerat id leo eget, sodales congue augue. Nullam tincidunt neque eu tellus varius facilisis. Proin sit amet mi eu sem scelerisque euismod eget sed lectus. Duis sed ante a magna tempor luctus eget in ex. Maecenas ligula arcu, tincidunt eu iaculis vitae, euismod vitae ex. Sed mollis pretium turpis, eu hendrerit eros interdum et. Pellentesque fermentum magna nec tellus ullamcorper dapibus. Fusce et vulputate tellus.\n\nDonec sem lorem, mollis tincidunt interdum non, convallis eget lacus. In imperdiet diam condimentum ex mattis efficitur. In in tellus vitae urna ultrices molestie. Fusce ac elementum ante. Sed porttitor rutrum interdum. Etiam tellus diam, hendrerit ut tellus quis, malesuada consectetur felis. Aliquam fermentum sapien ipsum, id hendrerit lorem rhoncus vitae. In hac habitasse platea dictumst.
+    </string>
+    <string name="dummy_text1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur ligula et eros pulvinar viverra. Morbi eu orci nulla. Duis porttitor mauris quis diam imperdiet, a porta diam sagittis. Suspendisse rutrum accumsan lectus et vestibulum. Donec vel est erat. Donec id sollicitudin quam, ut sollicitudin velit. Nulla at libero vitae urna fringilla porttitor sit amet vitae ligula. Duis ac mattis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi congue, nisl eget tincidunt commodo, purus lacus dignissim massa, eu maximus ex ex sed lectus. Mauris dapibus enim ac ex tempor lobortis. Pellentesque at dolor nec dolor bibendum consectetur non ut libero.
+    </string>
+    <string name="dummy_text_title">
+        Lorem ipsum dolor sit amet.
+    </string>
+
+    <string name="dummy_medium_text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+
+    <string name="dummy_small_text">
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+    <string name="no_item">No Item found!</string>
+    <string name="failed_text">Failed to load</string>
+    <string name="no_item_text">Items Not Found!</string>
+    <string name="no_internet_text">No Internet Connection!</string>
+    <string name="refer_text">Refer a friends &amp; earn the 10 Points, get 10% Discount on Premium Membership also get first Shipping Free. \n Invite Now!  </string>
+    <string name="refer_text_one">Refer &amp; Earn </string>
+    <string name="refer_text_two">Your Referral Code</string>
+    <string name="refer_text_three">Tap to copy</string>
+    <string name="str_nav_earn">Refer &amp; Earn</string>
+    <string name="pref_title_contact_us">Referal Code</string>
+    <string name="connect_to_internet">No Internet Connection...</string>
+    <string name="about_text">The best android implementation of material UI components. This app implemented based on Google Design Guidelines.</string>
+    <string name="OK">OK</string>
+    <string name="account_disabled">Account is Disabled.</string>
+    <string name="invalid_email_password">invalid email or password</string>
+    <string name="login_success_info">Login Successfully!</string>
+    <string name="Email">Email is not exist!</string>
+    <string name="NOT_verifity">Email is Not Verified!</string>
+    <string name="dont_have_account">dont\'t have an account ?</string>
+    <string name="title_activity_register">Register Now</string>
+    <string name="already_acc">already have a account?</string>
+    <string name="login_now">Login Now</string>
+    <string name="str_nav_user">Profile</string>
+    <string name="register_success">Register Successfully!</string>
+    <string name="email_in_use">Email is already used.</string>
+    <string name="account_not_found">Account not found!</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="email">Email*</string>
+    <string name="password">Password*</string>
+    <string name="submit">submit</string>
+
+    <!-- Shrine backdrop menu labels -->
+    <string name="home5_all">ALL</string>
+    <string name="home5_brands">BRANDS</string>
+    <string name="home5_trending">TRENDING</string>
+    <string name="home5_recommended">RECOMMENDED</string>
+    <string name="home5_women">WOMEN</string>
+    <string name="home5_men">MEN</string>
+    <string name="shr_account_label">MY ACCOUNT</string>
+
+    <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_all">View All</string>
+
+    <string name="prime_details">Amazon Prime Video, or simply Prime Video, is an American subscription video on-demand over-the-top streaming and rental service of Amazon.com, Inc., offered as a standalone service or as part of Amazon\'s Prime subscription.</string>
+    <string name="comment">Comment</string>
+    <string name="support">Support</string>
+    <string name="privacy_amp_policy">Privacy Policy</string>
+    <string name="decilne">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="clear_cache_msg">"This will delete Cache "</string>
+    <string name="confirm">confirm</string>
+    <!--Playback Speed copy-->
+    <string name="movie_rating">8.5</string>
+    <string name="try_easyplex_vip">Subscribe From Today</string>
+    <string name="watch_video_ads_to_unlock">WATCH VIDEO ADS TO UNLOCK</string>
+    <string name="subscribe_now">SUBSCRIBE NOW</string>
+    <string name="disable_player_ads">Disable Player Ads</string>
+    <string name="turn_off_ads_banner_interstitial_ads">Turn Off ads (Banner,Interstitial ads)</string>
+    <string name="play_premium_content_without_restrictions">Play Premium content without restrictions</string>
+    <string name="download_premium_content">Download Premium content</string>
+    <string name="vip_features">With VIP. Watch thousands of shows and movies, with plans starting at $2.99/month.</string>
+    <string name="custom_text_here">Custom Text Here</string>
+    <string name="update_message">update message</string>
+    <string name="version_2_0">Version 2.0</string>
+    <string name="update">Update</string>
+
+    <string name="no_media_found">No files</string>
+    <string name="lock">Lock</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!--===============-->
+    <!-- Key to Update -->
+    <!--===============-->
+    <string name="adview_banner_home_footer">ca-app-pub-8907881762519005/3104804902</string>
+    <!--<string name="adview_banner_home_footer">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <string name="adview_interstitial_ad_key">ca-app-pub-8907881762519005/4884914148</string>
+    <string name="str_nav_logout">Logout</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="logout_confirmation_text">Do you really want to logout?</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="YES">Yes</string>
+    <string name="DELETE">Delete</string>
+    <string name="SAVE">Save</string>
+
+
+    <string name="facebook_app_id">888075811683603</string>
+    <string name="fb_login_protocol_scheme">fb888075811683603</string>
+
+
+
+    <string name="use_fingerprint"> <u>Use Fingerprint</u>.</string>
+    <string name="pcpc">Privacy Policy Its for Educations built the amazon clone app app as an Open Source app. This SERVICE is provided by Its for Educations at no cost and is intended for use as is.  This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.  If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.  The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at amazon clone app unless otherwise defined in this Privacy Policy.  Information Collection and Use  For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.  The app does use third party services that may collect information used to identify you.  Link to privacy policy of third party service providers used by the app  Google Play Services AdMob Google Analytics for Firebase Firebase Crashlytics Facebook Fabric Matomo Log Data  I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.  Cookies  Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.  This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.  Service Providers  I may employ third–party companies and individuals due to the following reasons:  To facilitate our Service; To provide the Service on our behalf; To perform Service–related services; or To assist us in analyzing how our Service is used. I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.  Security  I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.  Links to Other Sites  This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.  Children’s Privacy  These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.  Changes to This Privacy Policy  I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.  This policy is effective as of 2021-01-08  Contact Us  If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at amaoncloneapp@clone.com.  This privacy policy page was created at privacypolicytemplate.net and modified/generated by App Privacy Policy Generator</string>
+    <string name="notes">My Notes</string>
+    <string name="notes_title">Notes Title Here</string>
+    <string name="notes_sub_title">Notes Sub Title Here</string>
+    <string name="notes_desc">Enter Note Here</string>
+    <string name="web_url">Enter Web Url</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="storage_permission_text">This app needs access to your storage.</string>
+    <string name="search">Search your notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="adview_interstitial_ad_key">ca-app-pub-0000000000000000/0000000000</string>-->
+
+    <!--===================-->
+    <!-- End Key to Update -->
+
+    <!--
+    Here are character code to these different style of bullets:
+     • = \u2022,   ● = \u25CF,   ○ = \u25CB,   ▪ = \u25AA,   ■ = \u25A0,   □ = \u25A1,   ► = \u25BA
+      setText("\u2022 Bullet");
+    -->
+    <!--===================-->
+
+    <!--
+1.UI Like Prime
+2.Exoplayer Play MP4 and HLS and live
+3.Stuff Part
+4.Download Video
+5.Preview Video(AutoPlay Video RecyclerView)
+6.Movie Shorts
+7.Video Ads (Play a video advertisement using the IMA SDK v3.)
+8.Figure print or app lock
+9. GEt current location and address
+10. Don't allow to take ss
+11.Login register update (Email Verification)
+12.WishList
+13.storage bar(Pending)
+14.Take SS and share
+15.Subscription (paytm,razorpay Pending)
+16.Fingerprint Scan
+17.num lock
+18.Deep Linking
+19.Login With FB and Google
+
+
+
+
+-->
+
+
+    <!--
+    //google login
+    //download credential.json
+    and add it
+
+
+
+    //facebook
+    Step 1:
+
+    //https://developers.facebook.com/
+
+    Generate SHA1 key by using below command
+    keytool -list -v -keystore Keystore path
+    Enter Keystore password.
+    Copy SHA1 Key.
+
+    Step 2:
+    Open this link - http://tomeko.net/online_tools/hex_to_base64.php
+    Paste the SHA1 Key in Hex String
+    Click convert button
+    Get the Release Keyhash in Output value
+
+    -->
+
+
+    <!--
+        keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Dines\.android\debug.keystore" | "C:\openssl\bin\openssl" sha1 -binary | "C:\openssl\bin\openssl" base64
+    -->
+
+</resources>

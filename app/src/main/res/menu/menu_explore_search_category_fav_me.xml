@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/searchMenu"
+        android:icon="@drawable/baseline_home_line_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/favouriteMenu"
+        android:icon="@drawable/search"
+        android:title="Find" />
+    <item
+        android:id="@+id/saveMenu"
+        android:icon="@drawable/download"
+        android:iconTint="@color/white"
+        android:title="Download" />
+
+
+    <item
+        android:id="@+id/profileMenu"
+        android:icon="@drawable/baseline_user_24"
+        android:title="Me" />
+</menu>

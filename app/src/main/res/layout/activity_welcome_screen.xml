@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#0e171e"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/prime" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="1dp"
+            android:textColor="@color/white"
+            android:text="@string/app_name"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    <LinearLayout
+        android:id="@+id/id_access_permissions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/cant_s_access_files" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:text="@string/storage_permission_is_required" />
+
+        <Button
+            android:id="@+id/id_btn_turn_on"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/blue"
+            android:text="@string/turn_on"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</RelativeLayout>
+
+

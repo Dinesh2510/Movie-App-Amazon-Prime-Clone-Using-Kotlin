@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".Activity.AppLock.VerificationScreen">
+
+    <ImageView
+        android:id="@+id/fing_img"
+        android:layout_width="@dimen/space_100"
+        android:layout_height="@dimen/space_100"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/finger_tip" />
+
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_40sdp"
+        android:background="@color/blue"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Click Me To Verify"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>

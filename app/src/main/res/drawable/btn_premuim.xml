@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+
+        <layer-list>
+            <item android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp">
+                <shape android:shape="rectangle">
+
+                    <solid android:color="@color/main_color" />
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+                    <size android:width="40dp" android:height="@dimen/pixel_10dp" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+    <item android:state_focused="true">
+
+        <layer-list>
+            <item android:bottom="10dp" android:left="4dp" android:right="10dp" android:top="10dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/main_color" />
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+                    <size android:width="40dp" android:height="@dimen/pixel_10dp" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+
+    <item>
+
+        <layer-list>
+            <item android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/main_color" />
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+                    <size android:width="40dp" android:height="@dimen/pixel_10dp" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+</selector>

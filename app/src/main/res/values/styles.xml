@@ -1,0 +1,263 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge"> <!--parent="Theme.AppCompat.Light.DarkActionBar"> -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+        <item name="cardViewStyle">@style/CardView</item>
+
+    </style>
+    <style name="ThemeOverlay.search" parent="AppTheme">
+
+        <!-- Text color -->
+        <item name="android:editTextColor">@color/ColorWhite</item>
+        <!-- Hint text color -->
+        <item name="android:textColorHint">@color/ColorGray</item>
+
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+    <style name="EditText.Flat.Grey" parent="@style/AppTheme">
+        <item name="android:textColorHint">@color/grey_40</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">@color/grey_90</item>
+    </style>
+
+    <style name="Button.Primary.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RoundedImageViewShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="AppTheme.Splash">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!-- Blue application theme. -->
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeBlue.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppThemeBlue.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--PSButton Colors-->
+
+    <style name="PSButton.Send" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="PSButton.Grey800" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_grey_800</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Primary.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PSButton.Accent.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="PSButton.Default.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/md_grey_600</item>
+    </style>
+
+    <style name="PSButton.White.Default" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_grey_400</item>
+        <item name="android:textColor">@color/md_grey_600</item>
+    </style>
+
+    <style name="PSButton.LightGreenA100" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_light_green_A100</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Black" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_black_1000</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Green600" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_green_600</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Blue600" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_blue_600</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.Yellow800" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/md_yellow_800</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="PSButton.White.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PSButton.White.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/md_red_500</item>
+    </style>
+
+
+
+    <style name="PSButton.Checkbox.Basic.Default" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/colorTextLight</item>
+    </style>
+
+
+    <style name="PSButton.Checkbox.Basic.Primary" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="PSButton.Checkbox.Basic.Accent" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonTint">@color/colorAccent</item>
+    </style>
+
+    <style name="PSButton.Radio.Custom" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorAccent">@color/colorAccentButton</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="PSButton.Switch.Custom" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorCheckboxTint</item>
+        <item name="colorSwitchThumbNormal">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/colorCheckboxDefaultNormal</item>
+    </style>
+
+    <!-- PS Custom Alert Dialog -->
+    <style name="AlertDialogFullScreen" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:background">@color/md_white_1000</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/md_grey_800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColorPrimary">@color/md_grey_800</item>
+        <item name="android:windowTitleStyle">@null</item>
+    </style>
+
+    <style name="AlertDialogPrimary" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textColorPrimary">@color/md_white_1000</item>
+        <item name="textColorAlertDialogListItem">@color/md_white_1000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="AlertDialogAccent" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textColorPrimary">@color/md_white_1000</item>
+        <item name="textColorAlertDialogListItem">@color/md_white_1000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <style name="PSButton.Fab.Custom" parent="Base.Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimaryDark2</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="Widget.Shrine.Backdrop" parent="">
+        <item name="android:background">@color/colorPrimaryDark2</item>
+    </style>
+
+    <style name="Widget.Shrine.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.MaterialComponents">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="ChipTextAppearance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:background">@color/white</item>
+    </style></resources>
