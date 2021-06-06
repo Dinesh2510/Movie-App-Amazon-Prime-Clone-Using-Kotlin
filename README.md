@@ -3,7 +3,7 @@
 
 #### NOTE: This is for Educational Purpose Only(All Imags and Details from Google/ Offcial Website).
 
-### Download APK
+### Download APK (DEMO SCROLL DOWN)
 
 |  No. | APK Name  | Download Link.  | Version No.|
 | ------------ | ------------ | ------------ |------------|
@@ -31,6 +31,9 @@
 17. num lock
 18. Deep Linking
 19. Login With FB and Google
+
+https://user-images.githubusercontent.com/46309253/120920750-ff67d900-c6dd-11eb-8485-2d73223f08f9.mp4
+
 
 
 
